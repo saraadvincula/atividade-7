@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatorial de um Número</title>
+</head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 7</title>
+</head>
+<body>
+    <h1>Reverter uma Palavra</h1>
+    <p>Verifique o console para ver o resultado.</p>
+
+    <script>
+      
+        let palavra = prompt("Digite uma palavra para reverter:");
+
+      
+        let palavraInvertida = "";
+
+        for (let i = palavra.length - 1; i >= 0; i--) {
+            palavraInvertida += palavra[i];  
+        }
+
+        console.log("A palavra ao contrário é:", palavraInvertida);
+    </script>
+</body>
+</html>
