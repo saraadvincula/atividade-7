@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 8</title>
+</head>
+<body>
+    <h1>Digite números para serem impressos</h1>
+    <p>O programa vai parar quando você digitar "0".</p>
+
+    <script>
+        let numeros = [];  
+
+        while (true) {
+            let numero = prompt("Digite um número (digite 0 para parar):");
+
+            if (numero === "0") {
+                break;  
+            }
+
+            numeros.push(numero);
+        }
+
+        console.log("Números digitados:", numeros.join(", "));
+    </script>
+</body>
+</html>
