@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 11</title>
+</head>
+<body>
+    <h1>Primeiros 10 Números da Sequência de Fibonacci</h1>
+    <p>Veja os primeiros 10 números da sequência de Fibonacci no console.</p>
+
+    <script>
+        let a = 0, b = 1;
+
+        console.log(a);  
+        console.log(b);  
+
+        for (let i = 3; i <= 10; i++) {
+            let c = a + b;
+            console.log(c);  
+
+            a = b;
+            b = c;
+        }
+    </script>
+</body>
+</html>
