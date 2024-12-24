@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 14</title>
+</head>
+<body>
+    <h1>Pirâmide de Números</h1>
+    <p>Veja a pirâmide de números no console.</p>
+
+    <script>
+        let linhas = 5;
+
+        for (let i = 1; i <= linhas; i++) {
+            let linha = '';
+
+            for (let j = 1; j <= i; j++) {
+                linha += i;  
+            }
+
+            console.log(linha);
+        }
+    </script>
+</body>
+</html>
