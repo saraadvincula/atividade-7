@@ -1,0 +1,20 @@
+<body>
+    <h1>Calculadora de Fatorial</h1>
+    <p>Verifique o console para ver o resultado.</p>
+
+    <script>
+        let numero = parseInt(prompt("Digite um número inteiro positivo para calcular o fatorial:"));
+
+        if (isNaN(numero) || numero < 0) {
+            console.log("Por favor, insira um número inteiro positivo.");
+        } else {
+            let fatorial = 1;
+
+            for (let i = 1; i <= numero; i++) {
+                fatorial *= i; 
+            }
+
+            console.log(O fatorial de ${numero} é: ${fatorial});
+        }
+    </script>
+</body>
