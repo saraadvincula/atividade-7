@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 9</title>
+</head>
+<body>
+    <h1>Multiplicação Acumulativa de 5 Números</h1>
+    <p>Digite 5 números para calcular o resultado da multiplicação.</p>
+
+    <script>
+        let resultado = 1;
+
+        for (let i = 1; i <= 5; i++) {
+            let numero = parseInt(prompt(Digite o número ${i}:));
+
+            resultado *= numero;
+        }
+
+        console.log("O resultado da multiplicação acumulativa dos 5 números é:", resultado);
+    </script>
+</body>
+</html>
