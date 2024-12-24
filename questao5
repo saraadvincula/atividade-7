@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questao 5</title>
+</head>
+<body>
+    <h1>Encontrar o Maior Número em um Array</h1>
+    <p>Verifique o console para ver o resultado.</p>
+
+    <script>
+        let numeros = [4, 10, 2, 5, 7, 1];
+
+        let maiorNumero = numeros[0];
+
+        for (let i = 1; i < numeros.length; i++) {
+            if (numeros[i] > maiorNumero) {
+                maiorNumero = numeros[i];
+            }
+        }
+
+        console.log("O maior número no array é:", maiorNumero);
+    </script>
+</body>
+</html>
