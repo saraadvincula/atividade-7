@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 12</title>
+</head>
+<body>
+    <h1>Inverter um Array</h1>
+    <p>Veja a versão invertida do array no console.</p>
+
+    <script>
+     
+        let arr = [1, 2, 3, 4, 5];
+
+   
+        let arrInvertido = [];
+
+        for (let i = arr.length - 1; i >= 0; i--) {
+            arrInvertido.push(arr[i]);  
+        }
+        console.log("Array original:", arr);
+        console.log("Array invertido:", arrInvertido);
+    </script>
+</body>
+</html>
