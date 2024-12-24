@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questao 13</title>
+</head>
+<body>
+    <h1>Verificar se uma Palavra é um Palíndromo</h1>
+    <p>Digite uma palavra para verificar se é um palíndromo.</p>
+
+    <script>
+        let palavra = prompt("Digite uma palavra:");
+
+        function verificarPalindromo(palavra) {
+            palavra = palavra.replace(/\s+/g, '').toLowerCase();
+
+            for (let i = 0; i < Math.floor(palavra.length / 2); i++) {
+                if (palavra[i] !== palavra[palavra.length - 1 - i]) {
+                    return false; 
+                }
+            }
+            return true; 
+        }
+
+        if (verificarPalindromo(palavra)) {
+            console.log(A palavra "${palavra}" é um palíndromo.);
+        } else {
+            console.log(A palavra "${palavra}" não é um palíndromo.);
+        }
+    </script>
+</body>
+</html>
